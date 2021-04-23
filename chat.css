@@ -1,0 +1,71 @@
+h1 {margin: 1% 5%;}
+
+body{
+	font-family: montserrat;
+	background-color: gray;
+	font-size: 18px;
+}
+#chat{
+	padding: 1%;
+	width: 28%;
+	height: 50vh;
+	border: 1px solid salmon;
+	border-radius: 10px;
+	margin: 0 5%;
+	background-color: white;
+	color: black;
+}
+
+.chatbox{
+	width: 30%;
+	height: 10vh;
+	border: 1px solid salmon;
+	border-radius: 10px;
+	margin: 2% 5%;
+	background-color: white;
+	display: flex;
+}
+#chattext{
+	font-size: 18px;
+	resize: none;
+}
+
+.rounded{
+	margin: 3px 3px;
+	width: 80%;
+	height: 9vh;
+	border: none;
+	align-self: center;
+}
+
+.blueButton{
+	margin-left: 1%;
+	width: 15%;
+	height: 50px;
+	justify-content: right;
+	align-self: center;
+	background-color: lightblue;
+	border: none;
+}
+
+.name{
+	width: 30%;
+	height: 3vh;
+	border: 1px solid salmon;
+	border-radius: 10px;
+	margin: 2% 5%;
+	background-color: white;
+}
+
+#sender{
+	font-size: 18px;
+	margin: 3px 5px;
+	width: 45%;
+	height: 2vh;
+	border: none;
+	align-self: center;
+}
+label{
+	padding-left: 10px;
+	padding-top: 2px;
+}

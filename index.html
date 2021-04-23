@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>Chat</title>
+	<link rel="stylesheet" type="text/css" href="chat.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="index.js"></script> 
+</head>
+<body>
+	<h1>Hello chatters!</h1>
+		<div id="chat">
+		</div>
+		<div class="name">
+			<label for="sender"><b>Name:</b></label><input type="text" id="sender" maxlength="15">
+		</div>
+		<div class="chatbox">
+			<textarea id="chattext" name="chatText" class="rounded" maxlength="255"></textarea>
+	        <input type="submit" class="blueButton" value="X" onclick="send();">
+		</div>
+</body>
+</html>
